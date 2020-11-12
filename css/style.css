@@ -8,6 +8,20 @@ body{
 
 }
 
+li{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+a{
+    text-transform: none;
+    color:black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
 .float-left{
     float: left;
 }
@@ -25,19 +39,22 @@ body{
 
 .btn {
     text-decoration: none;
-    text-transform: uppercase;
     border-radius: 5px;
+    border: 1px solid #ff7a59;
     padding:5px;
     color: white;
 }
 
-.btn-orange {
-    background-color: #ff7a59;
+.btn-normale{
+    padding:15px;
+    background-color: white;
+    color: #ff7a59;
 }
 
 .btn-grande {
-    background-color: #ff7a59;
     padding:15px;
+    background-color: #ff7a59;
+
 }
 
 /* inizio header */
@@ -45,7 +62,7 @@ body{
 .container{
     height:1200px;
     width: 80%;
-    margin-left: 20%;
+    margin:auto;
     background-color: blue;
 }
 
@@ -53,18 +70,32 @@ body{
     height: 100px;
     width: 100%;
     background-color: lightblue;
+    border-bottom: 1px solid black;
 }
 
 .header-left{
     height: 100%;
     width: 30%;
-    /* background-color:red; */
+    line-height: 100px;
+
+
+}
+
+.header-left li{
+    list-style-type: none;
+    display: inline-block;
 }
 
 .header-right{
     height: 100%;
     width: 50%;
-    /* background-color: orange; */
+    line-height:100px;
+    text-align: center;
+}
+
+.header-right i{
+    margin-right:20px;
+    font-size: 20px;
 }
 
 .header-nav{
@@ -74,8 +105,22 @@ body{
 }
 
 .nav-left{
+
     height: 100%;
     width: 30%;
     background-image: url('../img/logo.svg');
     background-repeat: no-repeat;
+    margin-top:25px;
+}
+
+.nav-right{
+    height: 100%;
+    width: 50%;
+}
+
+.nav-right li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    line-height: 80px;
 }
