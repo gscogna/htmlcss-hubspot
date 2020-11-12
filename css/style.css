@@ -63,7 +63,7 @@ a{
     height:1200px;
     width: 80%;
     margin:auto;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 .header-top{
@@ -96,12 +96,20 @@ a{
 .header-right i{
     margin-right:20px;
     font-size: 20px;
+    color: #0FA9C1;
 }
 
 .header-nav{
     height: 100px;
     width: 100%;
     background-color: white;
+}
+
+.header-nav hr{
+    width: 100%;
+    -webkit-box-shadow: 0 4px 6px -6px #222;
+    -moz-box-shadow: 0 4px 6px -6px #222;
+    box-shadow: 0 4px 6px -6px #222;
 }
 
 .nav-left{
@@ -123,4 +131,50 @@ a{
     display: inline-block;
     padding: 10px;
     line-height: 80px;
+}
+/* inizio jumbotron */
+.jumbotron{
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+
+.jumbotron img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right:0;
+    z-index: -1;
+
+
+}
+
+.jumbotron-title{
+    height:150px;
+    width: 30%;
+    position: absolute;
+    top:20%;
+    left:0;
+
+}
+
+.jumbotron-title h1{
+    font-size: 45px;
+    font-size: 45px;
+    color:#33475B;
+    line-height:50px;
+    font-weight: 700;
+    margin: .5em 0
+}
+
+.jumbotron-title a{
+    margin-bottom: 50px;
+}
+
+.jumbotron-title p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.125rem;
+    line-height: 1.61111em;
+    font-weight: 500;
 }
