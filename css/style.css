@@ -217,3 +217,16 @@ main{
 }
 
 /* sectioncenter */
+.rettangolo{
+    height:400px;
+    width: 80%;
+    margin:auto;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(50,73,91,0.2);
+    border-radius:5px;
+    padding:6%;
+
+}
+ .freehubspot-left img{
+     margin-bottom: 35px;
+ }
