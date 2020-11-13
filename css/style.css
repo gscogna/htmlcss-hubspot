@@ -175,3 +175,45 @@ a{
     line-height: 1.61111em;
     font-weight: 500;
 }
+/* Fine jumbotron */
+/* Inizio Main */
+
+
+main{
+    background-color: lightblue;
+}
+
+/* sectiontop */
+
+.section-top{
+    height: 950px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.cubo{
+    width: 800px;
+    position: absolute;
+    left:50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.cubo h3{
+    font-size:30px;
+    text-align: center;
+}
+
+
+.section-top p {
+    display: inline-block;
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.125rem;
+    line-height: 1.61111em;
+    font-weight: 500;
+}
+
+/* sectioncenter */
