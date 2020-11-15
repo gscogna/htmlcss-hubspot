@@ -392,3 +392,58 @@ main{
     bottom:2%;
     left:30%;
 }
+/* sezione final */
+
+.final{
+    height:600px;
+    width: 100%;
+    background: linear-gradient(to top, #33ccff 0%, rgb(20, 230, 211) 100%);
+    margin-top: 50px;
+    }
+
+.description-text{
+    text-align: center;
+    color: white;
+}
+
+.description-text h3{
+    font-size: 25px;
+    padding:15px;
+}
+
+.description-box{
+    width: 25%;
+    height: 150px;
+    margin-top:50px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid white;
+    border-right:1px solid white;
+
+}
+
+.description-box h4{
+font-size: 40px;
+}
+
+.last-box{
+    border-right: none;
+}
+
+.description-subbox{
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    color: white;
+    border-right:1px solid white;
+}
+
+.last-subbox{
+    border-right: none;
+}
+
+.description-subbox h4{
+font-size: 40px;
+}
+
+/* inizio sub-final */
