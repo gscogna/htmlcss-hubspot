@@ -447,3 +447,84 @@ font-size: 40px;
 }
 
 /* inizio sub-final */
+/* mini container */
+
+.sub-final{
+    background-color: white;
+}
+
+.mini-container{
+    width: 60%;
+    margin:auto;
+    height: 200px;
+}
+
+.box-numbers{
+    width: 25%;
+    height:100px;
+    text-align: left;
+    padding-top:50px;
+    margin-right: 100px;
+}
+.box-numbers h4{
+    text-align:justify;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.box-numbers p {
+    line-height: 1.6;
+}
+
+.box-icon img{
+    padding-top: 25px;
+    vertical-align: middle;
+    width: 120px;
+    margin-right: 50px;
+}
+
+/* container 2 step */
+.contenitore{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 80px;
+    position: relative;
+
+}
+
+.box-info{
+    height:150px;
+    width: 45%;
+
+}
+
+.box-info h4{
+    font-size: 45px;
+    font-size: 45px;
+    color:#33475B;
+    line-height:50px;
+    font-weight: 700;
+    margin: .5em 0
+}
+
+.box-info a{
+    margin-bottom: 50px;
+}
+
+.box-info p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.125rem;
+    line-height: 1.61111em;
+    font-weight: 500;
+}
+
+
+.box-cinese img{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top:20%;
+
+}
