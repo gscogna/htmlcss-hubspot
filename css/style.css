@@ -72,7 +72,11 @@ a{
     width: 100%;
     background-color: lightblue;
     border-bottom: 1px solid black;
-    position: relative;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 1;
+
 }
 
 .header-left{
@@ -103,6 +107,8 @@ a{
 .header-nav{
     height: 100px;
     width: 100%;
+    margin-top: 100px;
+    line-height: 100px;
     background-color: white;
 }
 
@@ -117,21 +123,46 @@ a{
     line-height: 80px;
 }
 /* inizio jumbotron */
-.jumbotron{
-    height: 600px;
-    width: 100%;
-    position: relative;
-}
 
 .jumbotron{
     height:880px;
+    width: 100%;
     background-color: #FFF2EE;
     background-image: url('../img/jumbotron.png');
     background-size: 100%;
     background-position: right top;
     background-repeat: no-repeat;
     box-shadow: inset 0 3px 8px rgba(0,0,0,0.1);
+    position: relative;
 
+}
+
+
+.jumbotron-title{
+    height:150px;
+    width: 30%;
+
+}
+
+.jumbotron-title h1{
+
+    font-weight: 700;
+    font-size: 45px;
+    color:#33475B;
+    line-height:50px;
+
+}
+
+.jumbotron-title a{
+    margin-bottom: 50px;
+}
+
+.jumbotron-title p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.125rem;
+    line-height: 1.61111em;
+    font-weight: 500;
 }
 
 .jumbotron::before{
@@ -145,35 +176,6 @@ a{
     left: 0;
     content: ' ';
     display: block;
-
-
-}
-
-.jumbotron-title{
-    height:150px;
-    width: 30%;
-
-}
-
-.jumbotron-title h1{
-    font-size: 45px;
-    font-size: 45px;
-    color:#33475B;
-    line-height:50px;
-    font-weight: 700;
-    margin: .5em 0
-}
-
-.jumbotron-title a{
-    margin-bottom: 50px;
-}
-
-.jumbotron-title p{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 1.125rem;
-    line-height: 1.61111em;
-    font-weight: 500;
 }
 /* Fine jumbotron */
 /* Inizio Main */
@@ -491,6 +493,7 @@ font-size: 40px;
     margin-top: 80px;
     position: relative;
 
+
 }
 
 .box-info{
@@ -527,4 +530,70 @@ font-size: 40px;
     right: 0;
     top:20%;
 
+}
+
+/* Inizio footer */
+
+footer{
+    background-color: #2D3E50;
+}
+
+.colonna{
+    margin-top: 50px;
+    margin-right: 35px;
+    color: white;
+    line-height: 2.6;
+}
+
+.colonna p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.colonna ul{
+    list-style: none;
+}
+
+.btn-footer{
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding:15px;
+    color: black;
+    background-color: white;
+}
+
+.posizione{
+    margin-top: 20px;
+}
+
+.contenitore-footer{
+    width: 80%;
+    height: 200px;
+    margin: auto;
+}
+
+.fontosi i{
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top:25px;
+}
+
+.code-title{
+    width: 80%;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.code-title span{
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+.copyright-left{
+    margin-top: 20px;
+    margin-right: 15px;
+    color:white;
 }
